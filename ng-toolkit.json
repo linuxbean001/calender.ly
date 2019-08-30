@@ -1,0 +1,17 @@
+{
+  "universal": {
+    "skipInstall": false,
+    "directory": ".",
+    "project": "pk2-pro-angular"
+  },
+  "serverless": {
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "project": "pk2-pro-angular",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}

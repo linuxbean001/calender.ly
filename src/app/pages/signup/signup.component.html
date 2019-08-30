@@ -1,0 +1,256 @@
+<div class="wrapper">
+    <div class="header-2">
+        <div class="page-header header-filter">
+            <div class="page-header-image" style="background-image: url('assets/img/bg-top-sign-up4.jpg');"></div>
+            <div class="content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 mr-auto ml-auto">
+                            <h1 class="text-center title">A Content Calendar that is <span class="calendarly">ALIVE</span></h1>
+                            <h2 class="text-center">Special for Social Media Managers, Content Marketers, Journalists & Publishers</h2>
+                        </div>
+                        <div class="col-md-6 mr-auto ml-auto">                     
+                            <!-- {{form2 | json}} -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                        <h4 class="text-center description">Sign Up Now and start improving your content marketing
+                                            </h4>
+                                    <!-- <label>Full name</label> -->
+                                    <div class="form-group">
+                                        <input [(ngModel)]="form1.FNAME" type="text" placeholder="Full Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <!-- <label>Your email</label> -->
+                                    <div class="form-group">
+                                        <input [(ngModel)]="form1.EMAIL" type="email" placeholder="Your Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="col-auto my-1 description">
+                                        I
+                                        <select [(ngModel)]="form1.PRIVACYPOL" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option value="I accept the Privacy Policy">Accept</option>
+                                                    <option value="I dont' accept the Privacy Policy">Don't Accept</option>
+                                                </select>
+
+                                        <label class="mr-sm-2 description" for="inlineFormCustomSelect">the Privacy Policy</label>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="col-auto my-1 description">
+                                        I
+                                        <select [(ngModel)]="form1.MMERGE2" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected value="I don't want to receive email">don't want to receive email</option>
+                                                    <option value="I want to receive emails with Calendarly News and Content Ideas">want to receive emails with Calendarly News and Content Ideas</option>
+                                                    <option value="I want to receive emails with Calendarly News, Content Ideas and related advertising">want to receive emails with Calendarly News, Content Ideas and related advertising
+                                                    </option>
+                                                </select>
+                                        <label class="mr-sm-2 description" for="inlineFormCustomSelect">from Calendar.ly</label>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 ml-auto mr-auto text-center">
+                                    <!-- [disabled]="!(form2.FNAME&&form2.EMAIL&&form2.MMERGE2&&form2.PRIVACYPOL)" -->
+                                    <button [disabled]="form1.submitting" (click)="submitForm1()" class="btn btn-primary btn-lg col-md-12">
+                                                BETA SIGNUP
+                                            </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="about-office">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-10 ml-auto mr-auto">
+                        <h2 class="title">No more templates & spreadhseets</h2>
+                        <h3 class="description">Forget about calendar templates, spreadhseets and outdated attached files.
+                            <br> With <span class="calendarly">Calendar.ly</span>, changes are updated LIVE into the cloud. Keep track of feedbacks and always have a bidr's-eye view of all your posts.
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                                    <div class="card-image">
+                                        <img class="img rounded" src="assets/img/bg-create3.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-calendarly">
+                                            <i class="now-ui-icons business_bulb-63"></i> Create
+                                        </h6>
+                                        <h4 class="card-title"><b>
+                                            Single source of truth <br> so your team can do the magic.</b>
+                                        </h4>
+                                        <p class="card-description">
+                                            Create posts, add assets and assign publication date.
+                                        </p>
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="card card-blog">
+                                        <div class="card-image">
+                                            <img class="img rounded" src="assets/img/bg-approve.jpg">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="category text-calendarly">
+                                                <i class="now-ui-icons ui-2_like"></i> Streamlined feedback
+                                            </h6>
+                                            <h4 class="card-title"><b>
+                                                Provide feedback while informing everyone at the same time.</b>
+                                            </h4>
+                                            <p class="card-description">
+                                                    Follow conversations, add screenshots and supporting documents.
+                                            </p>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="card card-blog">
+                                            <div class="card-image">
+                                                <img class="img rounded" src="assets/img/bg-publish.jpg">
+                                            </div>
+                                            <div class="card-body">
+                                                <h6 class="category text-calendarly">
+                                                    <i class="now-ui-icons ui-1_calendar-60"></i> Publish
+                                                </h6>
+                                                <h4 class="card-title">
+                                                    <b>Never lose track of the main objective.</b>
+                                                </h4>
+                                                <p class="card-description">
+                                                    Approve social posts and make sure you meet the deadline.
+                                                </p>
+                                            </div>
+                                </div>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="features-7 section-image">
+            <div class="col-md-8 mr-auto ml-auto text-center">
+                <h2 class="title">All Posts at a glance</h2>
+                <h3 class="description">All the information you need in one single screen.</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 px-0">
+                        <div class="col-sm-12">
+                            <div class="info info-horizontal">
+                                <div class="icon">
+                                    <i class="now-ui-icons sport_user-run"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Keep track of your team efforts</h5>
+                                    <p class="description">Check the workflow status and find bottle necks early on. Support your team when they most need it. Get updated statistic in real time.</p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon">
+                                    <i class="now-ui-icons education_glasses"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Cut through the clutter</h5>
+                                    <p class="description">Check the posts assigned to you and provide feedback right away. Never miss a deadline again. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon">
+                                    <i class="now-ui-icons business_briefcase-24"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Stakeholders Bird's-eye view</h5>
+                                    <p class="description">Give stakeholders the right message. Always up-to-date information so you can inform your decisions to achieve your objectives.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-container">
+                            <img src="assets/img/ipad3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-2">
+        <div class="page-header header-filter">
+            <div class="page-header-image" style="background-image: url('assets/img/bg-footer.jpg');"></div>
+            <div class="content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="text-center title-footer">Exclusive early adopter BETA invite</h2>
+                            <!-- {{form2 | json}} -->
+                        </div>
+                        <div class="col-md-6 mr-auto ml-auto">                     
+                                <!-- {{form2 | json}} -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                            <h4 class="text-center description">Sign Up Now and start improving your content marketing
+                                                </h4>
+                                        <!-- <label>Full name</label> -->
+                                        <div class="form-group">
+                                            <input [(ngModel)]="form2.FNAME" type="text" placeholder="Full Name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- <label>Your email</label> -->
+                                        <div class="form-group">
+                                            <input [(ngModel)]="form2.EMAIL" type="email" placeholder="Your Email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="col-auto my-1 description">
+                                            I
+                                            <select [(ngModel)]="form2.PRIVACYPOL" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option value="I accept the Privacy Policy">Accept</option>
+                                                        <option value="I dont' accept the Privacy Policy">Don't Accept</option>
+                                                    </select>
+    
+                                            <label class="mr-sm-2 description" for="inlineFormCustomSelect">the Privacy Policy</label>
+                                        </div>
+                                        <br>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="col-auto my-1 description">
+                                            I
+                                            <select [(ngModel)]="form2.MMERGE2" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option selected value="I don't want to receive email">don't want to receive email</option>
+                                                        <option value="I want to receive emails with Calendarly News and Content Ideas">want to receive emails with Calendarly News and Content Ideas</option>
+                                                        <option value="I want to receive emails with Calendarly News, Content Ideas and related advertising">want to receive emails with Calendarly News, Content Ideas and related advertising
+                                                        </option>
+                                                    </select>
+                                            <label class="mr-sm-2 description" for="inlineFormCustomSelect">from Calendar.ly</label>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 ml-auto mr-auto text-center">
+                                        <!-- [disabled]="!(form2.FNAME&&form2.EMAIL&&form2.MMERGE2&&form2.PRIVACYPOL)" -->
+                                        <button [disabled]="form2.submitting" (click)="submitForm2()" class="btn btn-primary btn-lg col-md-12">
+                                                    BETA SIGNUP
+                                                </button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

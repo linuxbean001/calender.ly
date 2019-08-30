@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap.scss";
+.page-header .content-center {
+    top: 30rem;
+}
+
+@media (min-width: 480px) {
+    .page-header[_ngcontent-c2] .content-center[_ngcontent-c2] {
+        top: 25rem !important;
+    }
+}
